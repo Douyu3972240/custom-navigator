@@ -1,4 +1,4 @@
-@import "/resource/iconfont/iconfont.wxss";
+@import "./iconfont.wxss";
 
 
 .omit {
