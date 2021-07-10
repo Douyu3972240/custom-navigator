@@ -25,7 +25,7 @@ Component({
     showType: {
       type: Number,
       value: 1, //0不显示,1显示,2显示请选择门店
-    }
+    } 
   },
 
   /**
