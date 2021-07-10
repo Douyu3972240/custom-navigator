@@ -1,0 +1,74 @@
+@import "/resource/iconfont/iconfont.wxss";
+
+
+.omit {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.omit-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.omit-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.static {
+  position: static;
+}
+
+.box-borderBox {
+  box-sizing: border-box;
+}
+
+.flex{
+  display:flex;
+}
+
+.list {
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  
+}
+
+.title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  background-color: #fff;
+  width: 8em;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+.backIcion {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  line-height: 16px;
+}
