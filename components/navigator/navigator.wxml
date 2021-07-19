@@ -1,7 +1,7 @@
 <!-- 撑开页面顶部距离 -->
 <view class="main" style="height:{{deviceInfo.safeArea.top + menuButtonInfo.height + (menuButtonInfo.bottom - deviceInfo.safeArea.top - menuButtonInfo.height)*2}}px;width:100%;opacity0;">
   <!-- 顶开顶部系统状态栏高度 -->
-  <view style="width:100%;opacity:0;height:{{deviceInfo.safeArea.top}}px;"></view>
+  <view style="width:100%;background-color:#fff;height:{{deviceInfo.safeArea.top}}px;position:fixed;left:0;top:0;z-index:999;"></view>
   <view class="list fixed" style="{{customNavigatorStyle}}top:{{deviceInfo.safeArea.top}}px;height:{{menuButtonInfo.height}}px;line-height:{{menuButtonInfo.height}}px;padding-top:{{menuButtonInfo.bottom - deviceInfo.safeArea.top - menuButtonInfo.height}}px;padding-bottom:{{menuButtonInfo.bottom - deviceInfo.safeArea.top - menuButtonInfo.height}}px;">
     <view wx:if="{{showType == 1}}" bindtap="back" data-type="{{navigatorType}}" class="backIcion iconfont icon-left absolute" style="font-size:18px;left:{{deviceInfo.windowWidth - menuButtonInfo.left - menuButtonInfo.width}}px;"></view>
     <navigator hover-class="none" wx:if="{{showType == 2}}" url="../../pages/shopList/shopList" class="absolute" style="display:flex;align-items: center;font-size:14px;left:{{deviceInfo.windowWidth - menuButtonInfo.left - menuButtonInfo.width}}px;">
